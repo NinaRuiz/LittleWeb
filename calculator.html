@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Calculadora</title>
@@ -8,21 +8,21 @@
 <div>
     <a href="Index.html"><button>Atràs</button></a>
 </div>
-    <h1 style="font-family: 'Courier New'">Calculadora</h1>
+    <h1 align="center" style="font-family: 'Courier New'">Calculadora</h1>
 
-    <div>
+    <div align="center">
         <label for="text-input"></label><input id="text-input" />
         <button id="save">Save</button>
     </div>
     <div>
-        <div>
+        <div class ="centro">
             <button class="action">+</button>
             <button class="action">-</button>
             <button class="action">/</button>
             <button class="action">*</button>
             <button id="erase"><=</button>
         </div>
-        <div>
+        <div class="centro">
             <div>
                 <button class="number">1</button>
                 <button class="number">2</button>
@@ -46,6 +46,17 @@
             </div>
         </div>
     </div>
+    <style>
+        .number{
+            margin: 0 0 1rem;
+            height: 2rem;
+            display: inline-block;
+            position: center;
+        }
+        .centro{
+            v
+        }
+    </style>
 <script src="calculatorScript.js"></script>
 </body>
 </html>
